@@ -1,58 +1,59 @@
-# Reto-Celulas
+# EXPERIMENT
+🎛️ Proyecto: Botones Interactivos
+Este proyecto es una demostración de una interfaz web con múltiples botones interactivos que realizan diferentes acciones utilizando HTML, CSS y JavaScript. Cada sección tiene una funcionalidad específica para mostrar cómo se puede manipular el DOM y responder a eventos del usuario.
 
-## Objetivo
+🚀 Funcionalidades
 
-Construir una aplicación web interactiva en equipos (células) que permita practicar el dominio de los conceptos básicos de JavaScript manipulando el DOM mediante botones con distintas funcionalidades.
+✅ 1. Días de la semana
+Muestra una lista de los días cuando se presiona el botón "Show days of the week".
 
-Cada integrante de la célula debe implementar una interacción distinta, y la aplicación final debe integrarlas en una sola página HTML.
+🧪 2. Validación de texto
+Valida el contenido de un campo de texto con un botón "Validate".
 
-El foco del ejercicio está en usar JavaScript puro, reforzando la comprensión de variables, condicionales, funciones, estructuras de control, estructuras de datos, y valores truthy/falsy.
+Muestra un mensaje según el contenido ingresado.
 
-## Reglas generales
+✨ 3. Mensaje aleatorio
+Muestra un mensaje motivacional aleatorio.
 
-* Cada miembro de la célula debe crear su propia rama y realizar sus cambios individualmente en GitHub, gestionando su ticket correspondiente en Azure DevOps.
-* La interfaz debe estar compuesta por una sola página HTML
-* Se debe utilizar CSS básico para estilizar los botones
-* No se permite el uso de librerías o frameworks externos
-* Todo el código JS debe estar en un archivo `script.js`
+Incluye una animación de aparición rápida (fade-in).
 
-## Requisitos técnicos
+⏰ 4. Saludo según la hora
+Genera un saludo dependiendo de la hora actual del sistema (Buenos días, Buenas tardes, etc.).
 
-* Uso de al menos una variable por funcionalidad
-* Uso de al menos una condición (if/else o switch)
-* Al menos una función declarada y reutilizada
-* Al menos una estructura repetitiva (for o while)
-* Uso de estructuras de datos (arrays u objetos)
-* Validaciones utilizando valores truthy o falsy
+🔢 5. Contador
+Botones para aumentar, disminuir o reiniciar un contador.
 
-## Tickets de desarrollo (uno por cada funcionalidad)
+Se muestra el valor actual dinámicamente.
 
-1. **Botón de saludo condicional:** Mostrar un mensaje distinto según la hora del día (buenos días, tardes o noches). Utilizar condicionales y una función.
+🎨 6. Cambio de color
+Cambia el color de fondo de un elemento al presionar el botón.
 
-2. **Botón contador:** Cada vez que el botón sea presionado, debe aumentar un contador y actualizar el valor en pantalla. Usar una variable y modificación del DOM.
+🛠️ Tecnologías Utilizadas
+HTML5
 
-3. **Botón selector aleatorio:** Elegir aleatoriamente un mensaje de un array y mostrarlo. Usar estructuras de datos y funciones.
+CSS
 
-4. **Botón validador de entrada:** Validar si un campo de texto tiene contenido. Si está vacío, mostrar un mensaje de advertencia. Usar truthy/falsy y condicional.
+JavaScript (vanilla)
 
-5. **Botón de cambio de color:** Al presionar, cambiar el color de fondo de un elemento utilizando valores definidos en una estructura de datos. Usar arrays y condicionales.
+Google Fonts (Rajdhani, Orbitron)
 
-6. **Botón con ciclo:** Crear una lista de elementos en pantalla con base en una estructura repetitiva (por ejemplo, mostrar los días de la semana). Usar `for` y manipulación del DOM.
+🔧 Cómo usar
+Clona el repositorio o descarga los archivos.
 
+Asegúrate de mantener la estructura de carpetas (especialmente la carpeta buttons).
 
+Abre index.html en tu navegador.
 
-## Entregables
+Interactúa con los botones para ver sus funcionalidades.
 
-* Archivo HTML principal con todos los botones
-* Archivo JS con las seis funcionalidades implementadas
-* Archivo CSS básico con estilos para los botones y la página
+📌 Notas adicionales
+Cada funcionalidad está dividida en archivos JavaScript separados para mantener el código modular y limpio.
 
-## Presentación
+La clase .fade-in usada en el botón de mensaje aleatorio requiere una animación CSS incluida en style.css.
 
-La presentación se realizará el día viernes en formato tipo pitch. Cada célula tendrá un máximo de 8 minutos para:
+Presentacion
+https://gamma.app/docs/Proyecto-Botones-Interactivos-eiht2pvkjnibk8a
 
-* Explicar su código
-* Mostrar el tablero de trabajo en Azure
-* Exponer la solución propuesta y cómo se distribuyeron las responsabilidades
-
-Se valorará la claridad en la exposición técnica, la participación de todos los integrantes y la correcta aplicación de los conceptos abordados en las lecciones.
+🧑‍💻 Autor
+Ecmas
+Desarrollador Web en formación 💻
